@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace sampa\gallery;
+namespace sampa\media;
 
 use yii\web\AssetBundle;
 
@@ -18,6 +18,9 @@ class SampaAsset extends AssetBundle
 {
     public $js = [
         'sampa-blueimp-gallery.js',
+    ];
+    public $css = [
+        'sampa-blueimp-gallery.css',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
